@@ -46,7 +46,7 @@ The `attrs` parameter is an object that contains key-value pairs of all the attr
 
 ```javascript
 const attrs = {
-    d: 'M0 50 H 500',
+    d: 'M0 50 H 250',
     stroke:'red',
     'stroke-width': 2
 };

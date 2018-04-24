@@ -153,4 +153,4 @@ class Graph {
 
 const graph = Graph.newGraph('root');
 
-graph.width(500).height(500).gridSize(10,10).buildGrid().drawAxes();
+graph.width(250).height(250).gridSize(10,10).buildGrid().drawAxes();
