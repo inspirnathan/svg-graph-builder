@@ -8,7 +8,7 @@ const graph = Graph.newGraph('root');
 
 ## Set SVG dimensions
 ```javascript
-graph.width(500).height(500);
+graph.width(250).height(250);
 ```
 
 ## Set the number of grid lines (horizontal, vertical)
@@ -33,7 +33,7 @@ graph.build();
 
 Alternatively, you could have built the whole thing using one string of methods:
 ```javascript
-graph.width(500).height(500).gridSize(10,10).buildGrid().drawAxes();
+graph.width(250).height(250).gridSize(10,10).buildGrid().drawAxes();
 ```
 
 ## Extra features
